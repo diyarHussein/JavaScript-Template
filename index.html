@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Templates</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Start Setting Box -->
+    <div class="setting-box">
+        <div class="gear-container">
+            <i class="fa fa-gear gear"></i>
+        </div>
+        <div class="change-setting-content">
+            <div class="options-box">
+                <h4>Change Color:</h4>
+                <ul class="color-list" data-color="#07b44a">
+                    <li class="active" data-color="#07b44a"></li>
+                    <li data-color="#b30000"></li>
+                    <li data-color="#0067b3"></li>
+                    <li data-color="#b34800"></li>
+                    <li data-color="#ff8080"></li>
+                </ul>
+            </div>
+            <div class="options-box">
+                <h4>Random Background</h4>
+                <div class="change-background">
+                    <span data-background="yes" class="yes active">Yes</span>
+                    <span data-background="no" class="no">No</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Setting Box -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+        <div class="overlay"></div>
+        <div class="landing-header">
+            <div class="logo">My Logo</div>
+            <ul class="links">
+                <li><a class="active" href="">About</a></li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Contact</a></li>
+                <li><a href="">Services</a></li>
+            </ul>
+        </div>
+        <div class="intro-text">
+            <h1>My <span>Special</span> Page</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nostrum dignissimos illum ea! Iusto
+                adipisci soluta</p>
+        </div>
+    </div>
+    <!-- End Landing Page -->
+
+    <script src="js/master.js"></script>
+</body>
+
+</html>
